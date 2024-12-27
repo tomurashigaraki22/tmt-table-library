@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "A modern table library for React with built-in sorting, filtering, and custom styling support.",
   "main": "./dist/modern-react-table.umd.js",
-  "module": "./dist/modern-react-table.es.js",
+  "module": "./dist/modern-react-table.es.js", 
   "exports": {
     ".": {
       "import": "./dist/modern-react-table.es.js",
