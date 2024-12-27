@@ -115,7 +115,7 @@ export function Table({
           />
         </div>
       )}
-      <div className="overflow-x-auto">
+      <div className="overflow-x-auto overflow-y-auto">
         <table className="w-full border-collapse">
           <thead>
             <tr className={getHeaderRowClassName()}>
