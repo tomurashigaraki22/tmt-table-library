@@ -17,6 +17,7 @@
   "type": "module",
   "scripts": {
     "build": "vite build",
+    "dev": "vite",
     "prepublishOnly": "npm run build"
   },
   "keywords": [

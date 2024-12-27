@@ -116,7 +116,7 @@ export function Table({
         </div>
       )}
       <div className="overflow-x-auto overflow-y-auto">
-        <table className="w-full border-collapse">
+        <table className="w-full border-collapse overflow-y-auto">
           <thead>
             <tr className={getHeaderRowClassName()}>
               {columns.map((column) => (
@@ -137,7 +137,7 @@ export function Table({
               ))}
             </tr>
           </thead>
-          <tbody>
+          <tbody className='overflow-y-auto'>
             {sortedData.map((row, rowIndex) => (
               <tr
                 key={rowIndex}
