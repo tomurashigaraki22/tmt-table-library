@@ -1,6 +1,6 @@
 {
   "name": "tmt-table-library",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A modern table library for React with built-in sorting, filtering, and custom styling support.",
   "main": "./dist/modern-react-table.umd.js",
   "module": "./dist/modern-react-table.es.js",
